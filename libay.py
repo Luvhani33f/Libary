@@ -71,7 +71,8 @@ def add_author():
 
 def add_books():
     books_records = []
-    try:  # number of books
+    try:  
+    # number of books
 
         
         book_id_input = entry_bookid.get().strip()
