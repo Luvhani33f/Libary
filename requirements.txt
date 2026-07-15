@@ -1,0 +1,35 @@
+# Library Management System Requirements
+
+# Core GUI Framework (Usually built-in with Python, but listed for clarity)
+# tkinter is included with Python 3.x installation
+
+# Database (Built-in with Python 3.x)
+# sqlite3 is included with Python 3.x installation
+
+# Development & Testing (Optional)
+pytest==7.4.0
+black==23.7.0
+pylint==2.17.5
+
+# Python Version Requirements
+# Python >= 3.6
+
+# Installation Instructions:
+# 1. Ensure you have Python 3.6 or higher installed
+# 2. On Windows/macOS, tkinter comes pre-installed with Python
+# 3. On Linux, install tkinter:
+#    Ubuntu/Debian: sudo apt-get install python3-tk
+#    Fedora: sudo dnf install python3-tkinter
+#    Arch: sudo pacman -S tk
+#
+# 4. Install optional development packages:
+#    pip install -r requirements.txt
+#
+# For running tests (if they exist):
+#    pytest -v
+#
+# For code formatting:
+#    black libay.py
+#
+# For code linting:
+#    pylint libay.py
